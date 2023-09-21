@@ -12,4 +12,4 @@ git config --global user.email "noreply@not-a-real-email.com"
 git config --global core.autocrlf false
 git config --global core.filemode false
 git config --global branch.autosetuprebase always
-call fetch --help
+call fetch chromium
