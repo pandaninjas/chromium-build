@@ -15,4 +15,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.0.0
       - name: Run the batch file
-        run: main.bat
+        run: .\main.bat
