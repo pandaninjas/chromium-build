@@ -5,7 +5,7 @@ set PATH=%PATH%;%cd%
 set DEPOT_TOOLS_WIN_TOOLCHAIN=0
 cd ..
 mkdir build && cd build
-gclient
+gclient help
 mkdir chromium && cd chromium
 git config --global user.name "My Name"
 git config --global user.email "noreply@not-a-real-email.com"
