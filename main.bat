@@ -5,11 +5,7 @@ set PATH=%PATH%;%cd%
 set DEPOT_TOOLS_WIN_TOOLCHAIN=0
 cd ..
 mkdir build && cd build
-call gclient help
 mkdir chromium && cd chromium
-git config --global user.name "My Name"
-git config --global user.email "noreply@not-a-real-email.com"
-git config --global core.autocrlf false
-git config --global core.filemode false
-git config --global branch.autosetuprebase always
-call fetch chromium
+curl https://gsdview.appspot.com/chromium-browser-official/chromium-117.0.5938.88.tar.xz > chromium.tar.xz
+tar -xf chromium.tar.xz
+tree
